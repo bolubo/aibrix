@@ -1,0 +1,7 @@
+traffic-022955/probe.csv | scale up 2->4 | first 503s
+2026-09-26T02:30:36.038Z,503,{"error":"The model is currently scaling. Please try again later."}
+2026-09-26T02:30:36.249Z,503,{"error":"The model is currently scaling. Please try again later."}
+2026-09-26T02:30:36.459Z,503,{"error":"The model is currently scaling. Please try again later."}
+traffic-022955/probe.csv | scale up 2->4 | last 503, then first 200
+2026-09-26T02:31:13.243Z,503,{"error":"The model is currently scaling. Please try again later."}
+2026-09-26T02:31:13.452Z,200,{"is_scaling_elastic_ep":false}
